@@ -1,0 +1,13 @@
+name: SillyTowers
+main: com.gmail.mcraftworldmc.sillytowers.Core
+version: 1.0.0
+author: MineOCraftMC
+commands:
+  st:
+    description: Main setup command
+    usage: /<command> <arg>
+    permission: sillytowers.admin
+permissions:
+  sillytowers.admin:
+    description: Permission to use main command
+    default: op
